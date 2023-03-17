@@ -1,0 +1,46 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 31-10-2022, 00:25:17
+    Author     : User
+*/
+
+.shirt-container{
+    background-color: #0ab581;
+    margin: 0px;
+    padding : 200px 32px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+
+}
+.list-product{
+    display: grid;
+    gap: 50px;
+    padding: 2rem;
+}
+.product-card{
+  padding: 23px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: #f27b1d;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  
+}
+
+.product-card img{
+    width: 300px;
+    height: 300px;
+}
+.list-product .product-card p{
+    width: 300px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+}
